@@ -1,4 +1,4 @@
-import './styles/styles.scss'
+import './assets/styles/styles.scss'
 import TodoList from './components/TodoList/TodoList'
 
 function App() {

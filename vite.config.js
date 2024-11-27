@@ -24,7 +24,7 @@ export default defineConfig({
       scss: {
         additionalData: `
           @use "sass:map";
-          @use "@/styles/base/variables.scss" as *;
+          @use "@/assets/styles/base/variables.scss" as *;
         `
       }
     }

@@ -158,47 +158,6 @@
   border: 1px solid #FF8303;
 }
 
-.to_do_list {
-  background-color: #1B1A17;
-  padding: 23px;
-}
-
-.to_do_list__body {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-height: 650px;
-  overflow: auto;
-}
-.to_do_list__body li {
-  width: 100%;
-  margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  border: 1px solid #A35709;
-  border-radius: 8px;
-  background-color: #242320;
-}
-.to_do_list__body li:last-child {
-  margin-bottom: 0;
-}
-.to_do_list__body li div {
-  width: 100%;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.2;
-  color: #F0E3CA;
-  padding: 16px 0 16px 16px;
-}
-.to_do_list__body li div p {
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 1.1;
-  margin-bottom: 4px;
-}
-
 * {
   margin: 0;
   padding: 0;
